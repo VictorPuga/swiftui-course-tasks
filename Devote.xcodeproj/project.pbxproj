@@ -16,6 +16,7 @@
 		32BCF0192612DDCA00AC2D4F /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF0162612DDCA00AC2D4F /* sound-tap.mp3 */; };
 		32BCF01A2612DDCA00AC2D4F /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF0172612DDCA00AC2D4F /* sound-rise.mp3 */; };
 		32BCF01B2612DDCA00AC2D4F /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF0182612DDCA00AC2D4F /* sound-ding.mp3 */; };
+		32BCF0282612E26A00AC2D4F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF0272612E26A00AC2D4F /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		32BCF0162612DDCA00AC2D4F /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		32BCF0172612DDCA00AC2D4F /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
 		32BCF0182612DDCA00AC2D4F /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
+		32BCF0272612E26A00AC2D4F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		32BCEFF52612DD3100AC2D4F = {
 			isa = PBXGroup;
 			children = (
+				32BCF0272612E26A00AC2D4F /* .gitignore */,
 				32BCF0002612DD3100AC2D4F /* Devote */,
 				32BCEFFF2612DD3100AC2D4F /* Products */,
 			);
@@ -193,6 +196,7 @@
 				32BCF0192612DDCA00AC2D4F /* sound-tap.mp3 in Resources */,
 				32BCF01A2612DDCA00AC2D4F /* sound-rise.mp3 in Resources */,
 				32BCF0092612DD3100AC2D4F /* Preview Assets.xcassets in Resources */,
+				32BCF0282612E26A00AC2D4F /* .gitignore in Resources */,
 				32BCF0062612DD3100AC2D4F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

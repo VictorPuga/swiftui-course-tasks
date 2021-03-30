@@ -16,6 +16,7 @@
 		32BCF0192612DDCA00AC2D4F /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF0162612DDCA00AC2D4F /* sound-tap.mp3 */; };
 		32BCF01A2612DDCA00AC2D4F /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF0172612DDCA00AC2D4F /* sound-rise.mp3 */; };
 		32BCF01B2612DDCA00AC2D4F /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF0182612DDCA00AC2D4F /* sound-ding.mp3 */; };
+		32DDE29F2612EA2C00B98D26 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DDE29E2612EA2C00B98D26 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		32BCF0182612DDCA00AC2D4F /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		32BCF0272612E26A00AC2D4F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		32DDE29A2612E38000B98D26 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		32DDE29E2612EA2C00B98D26 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +50,9 @@
 		32BCEFF52612DD3100AC2D4F = {
 			isa = PBXGroup;
 			children = (
-				32BCF0272612E26A00AC2D4F /* .gitignore */,
 				32DDE29A2612E38000B98D26 /* README.md */,
 				32BCF0002612DD3100AC2D4F /* Devote */,
+				32BCF0272612E26A00AC2D4F /* .gitignore */,
 				32BCEFFF2612DD3100AC2D4F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,6 +118,7 @@
 		32BCF0212612DE2300AC2D4F /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				32DDE29E2612EA2C00B98D26 /* Constants.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32DDE29F2612EA2C00B98D26 /* Constants.swift in Sources */,
 				32BCF00B2612DD3100AC2D4F /* Persistence.swift in Sources */,
 				32BCF0042612DD3100AC2D4F /* ContentView.swift in Sources */,
 				32BCF00E2612DD3100AC2D4F /* Devote.xcdatamodeld in Sources */,

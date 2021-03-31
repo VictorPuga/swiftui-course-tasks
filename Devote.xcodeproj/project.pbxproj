@@ -16,6 +16,10 @@
 		32BCF0192612DDCA00AC2D4F /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF0162612DDCA00AC2D4F /* sound-tap.mp3 */; };
 		32BCF01A2612DDCA00AC2D4F /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF0172612DDCA00AC2D4F /* sound-rise.mp3 */; };
 		32BCF01B2612DDCA00AC2D4F /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF0182612DDCA00AC2D4F /* sound-ding.mp3 */; };
+		32D707AC2613CF3B000F316B /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D707AB2613CF3B000F316B /* HideKeyboardExtension.swift */; };
+		32D707AF2613D297000F316B /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D707AE2613D297000F316B /* BackgroundImageView.swift */; };
+		32D707B22613D413000F316B /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D707B12613D413000F316B /* NewTaskItemView.swift */; };
+		32D707B526140E84000F316B /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D707B426140E84000F316B /* BlankView.swift */; };
 		32DDE29F2612EA2C00B98D26 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DDE29E2612EA2C00B98D26 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +36,10 @@
 		32BCF0172612DDCA00AC2D4F /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
 		32BCF0182612DDCA00AC2D4F /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		32BCF0272612E26A00AC2D4F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		32D707AB2613CF3B000F316B /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
+		32D707AE2613D297000F316B /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		32D707B12613D413000F316B /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
+		32D707B426140E84000F316B /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 		32DDE29A2612E38000B98D26 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		32DDE29E2612EA2C00B98D26 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +112,9 @@
 			isa = PBXGroup;
 			children = (
 				32BCF0032612DD3100AC2D4F /* ContentView.swift */,
+				32D707AE2613D297000F316B /* BackgroundImageView.swift */,
+				32D707B12613D413000F316B /* NewTaskItemView.swift */,
+				32D707B426140E84000F316B /* BlankView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -111,6 +122,7 @@
 		32BCF0202612DE1300AC2D4F /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				32D707AB2613CF3B000F316B /* HideKeyboardExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -212,10 +224,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				32DDE29F2612EA2C00B98D26 /* Constants.swift in Sources */,
+				32D707AF2613D297000F316B /* BackgroundImageView.swift in Sources */,
 				32BCF00B2612DD3100AC2D4F /* Persistence.swift in Sources */,
+				32D707AC2613CF3B000F316B /* HideKeyboardExtension.swift in Sources */,
+				32D707B526140E84000F316B /* BlankView.swift in Sources */,
 				32BCF0042612DD3100AC2D4F /* ContentView.swift in Sources */,
 				32BCF00E2612DD3100AC2D4F /* Devote.xcdatamodeld in Sources */,
 				32BCF0022612DD3100AC2D4F /* DevoteApp.swift in Sources */,
+				32D707B22613D413000F316B /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

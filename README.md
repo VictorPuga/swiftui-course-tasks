@@ -12,3 +12,4 @@ Fourth app from the SwiftUI online course
 - Blend mode
 - AVAudioPlayer
 - Haptics
+- WidgetKit

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		321784182618EB01007CCF89 /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321784172618EB00007CCF89 /* ListRowItemView.swift */; };
 		3217841B2618ED28007CCF89 /* CheckBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217841A2618ED28007CCF89 /* CheckBoxStyle.swift */; };
+		3217841E2618F2EA007CCF89 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217841D2618F2EA007CCF89 /* SoundPlayer.swift */; };
 		32BCF0022612DD3100AC2D4F /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCF0012612DD3100AC2D4F /* DevoteApp.swift */; };
 		32BCF0042612DD3100AC2D4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCF0032612DD3100AC2D4F /* ContentView.swift */; };
 		32BCF0062612DD3100AC2D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF0052612DD3100AC2D4F /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		321784152618E939007CCF89 /* Devote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Devote.entitlements; sourceTree = "<group>"; };
 		321784172618EB00007CCF89 /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
 		3217841A2618ED28007CCF89 /* CheckBoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxStyle.swift; sourceTree = "<group>"; };
+		3217841D2618F2EA007CCF89 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		32BCEFFE2612DD3100AC2D4F /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BCF0012612DD3100AC2D4F /* DevoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteApp.swift; sourceTree = "<group>"; };
 		32BCF0032612DD3100AC2D4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				32DDE29E2612EA2C00B98D26 /* Constants.swift */,
+				3217841D2618F2EA007CCF89 /* SoundPlayer.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				32BCF00E2612DD3100AC2D4F /* Devote.xcdatamodeld in Sources */,
 				3217841B2618ED28007CCF89 /* CheckBoxStyle.swift in Sources */,
 				32BCF0022612DD3100AC2D4F /* DevoteApp.swift in Sources */,
+				3217841E2618F2EA007CCF89 /* SoundPlayer.swift in Sources */,
 				32D707B22613D413000F316B /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

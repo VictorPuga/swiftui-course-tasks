@@ -16,6 +16,13 @@ struct CheckBoxStyle: ToggleStyle {
         .font(.system(size: 30, weight: .semibold, design: .rounded))
         .onTapGesture {
           configuration.isOn.toggle()
+          feedback.notificationOccurred(.success)
+          
+          if configuration.isOn {
+            playSound(sound: "sound-rise", type: "mp3")
+          } else {
+            playSound(sound: "sound-tap", type: "mp3")
+          }
         }
       configuration.label
     } // :HStack
@@ -29,8 +36,8 @@ struct CheckBoxStyle_Previews: PreviewProvider {
       Toggle("Label", isOn: .constant(true))
       Toggle("Label", isOn: .constant(false))
     }
-        .toggleStyle(CheckBoxStyle())
-        .previewLayout(.sizeThatFits)
-        .padding()
+    .toggleStyle(CheckBoxStyle())
+    .previewLayout(.sizeThatFits)
+    .padding()
   }
 }

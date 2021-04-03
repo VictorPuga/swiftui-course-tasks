@@ -10,3 +10,5 @@ Fourth app from the SwiftUI online course
 - Prefered color scheme
 - UserDefaults
 - Blend mode
+- AVAudioPlayer
+- Haptics

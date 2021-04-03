@@ -9,3 +9,4 @@ Fourth app from the SwiftUI online course
 - ToolbarItem
 - Prefered color scheme
 - UserDefaults
+- Blend mode

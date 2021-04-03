@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321784182618EB01007CCF89 /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321784172618EB00007CCF89 /* ListRowItemView.swift */; };
+		3217841B2618ED28007CCF89 /* CheckBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217841A2618ED28007CCF89 /* CheckBoxStyle.swift */; };
 		32BCF0022612DD3100AC2D4F /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCF0012612DD3100AC2D4F /* DevoteApp.swift */; };
 		32BCF0042612DD3100AC2D4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BCF0032612DD3100AC2D4F /* ContentView.swift */; };
 		32BCF0062612DD3100AC2D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BCF0052612DD3100AC2D4F /* Assets.xcassets */; };
@@ -24,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		321784152618E939007CCF89 /* Devote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Devote.entitlements; sourceTree = "<group>"; };
+		321784172618EB00007CCF89 /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
+		3217841A2618ED28007CCF89 /* CheckBoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxStyle.swift; sourceTree = "<group>"; };
 		32BCEFFE2612DD3100AC2D4F /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BCF0012612DD3100AC2D4F /* DevoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteApp.swift; sourceTree = "<group>"; };
 		32BCF0032612DD3100AC2D4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +81,7 @@
 		32BCF0002612DD3100AC2D4F /* Devote */ = {
 			isa = PBXGroup;
 			children = (
+				321784152618E939007CCF89 /* Devote.entitlements */,
 				32BCF0012612DD3100AC2D4F /* DevoteApp.swift */,
 				32BCF01E2612DE0200AC2D4F /* View */,
 				32BCF0232612DE6E00AC2D4F /* Model */,
@@ -115,6 +121,7 @@
 				32D707AE2613D297000F316B /* BackgroundImageView.swift */,
 				32D707B12613D413000F316B /* NewTaskItemView.swift */,
 				32D707B426140E84000F316B /* BlankView.swift */,
+				321784172618EB00007CCF89 /* ListRowItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -138,6 +145,7 @@
 		32BCF0222612DE2B00AC2D4F /* Style */ = {
 			isa = PBXGroup;
 			children = (
+				3217841A2618ED28007CCF89 /* CheckBoxStyle.swift */,
 			);
 			path = Style;
 			sourceTree = "<group>";
@@ -229,7 +237,9 @@
 				32D707AC2613CF3B000F316B /* HideKeyboardExtension.swift in Sources */,
 				32D707B526140E84000F316B /* BlankView.swift in Sources */,
 				32BCF0042612DD3100AC2D4F /* ContentView.swift in Sources */,
+				321784182618EB01007CCF89 /* ListRowItemView.swift in Sources */,
 				32BCF00E2612DD3100AC2D4F /* Devote.xcdatamodeld in Sources */,
+				3217841B2618ED28007CCF89 /* CheckBoxStyle.swift in Sources */,
 				32BCF0022612DD3100AC2D4F /* DevoteApp.swift in Sources */,
 				32D707B22613D413000F316B /* NewTaskItemView.swift in Sources */,
 			);
@@ -359,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Devote/Devote.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Devote/Preview Content\"";
 				DEVELOPMENT_TEAM = TZ5YSJH8XE;
@@ -371,6 +382,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.VictorPuga.Devote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -381,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Devote/Devote.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Devote/Preview Content\"";
 				DEVELOPMENT_TEAM = TZ5YSJH8XE;
@@ -393,6 +406,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.VictorPuga.Devote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -7,3 +7,5 @@ Fourth app from the SwiftUI online course
 - Core Data
 - Dismiss keyboard
 - ToolbarItem
+- Prefered color scheme
+- UserDefaults
